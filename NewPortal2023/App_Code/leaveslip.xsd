@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="leaveslip" targetNamespace="http://tempuri.org/leaveslip.xsd" xmlns:mstns="http://tempuri.org/leaveslip.xsd" xmlns="http://tempuri.org/leaveslip.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="leaveslip" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="leaveslip" msprop:Generator_UserDSName="leaveslip">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Dsleaveslip" msprop:Generator_TableClassName="DsleaveslipDataTable" msprop:Generator_RowEvArgName="DsleaveslipRowChangeEvent" msprop:Generator_TableVarName="tableDsleaveslip" msprop:Generator_TablePropName="Dsleaveslip" msprop:Generator_RowDeletingName="DsleaveslipRowDeleting" msprop:Generator_RowChangingName="DsleaveslipRowChanging" msprop:Generator_RowDeletedName="DsleaveslipRowDeleted" msprop:Generator_RowClassName="DsleaveslipRow" msprop:Generator_RowEvHandlerName="DsleaveslipRowChangeEventHandler" msprop:Generator_RowChangedName="DsleaveslipRowChanged" msprop:Generator_UserTableName="Dsleaveslip">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnEMP_MID" msprop:Generator_ColumnPropNameInRow="EMP_MID" msprop:Generator_ColumnPropNameInTable="EMP_MIDColumn" msprop:Generator_UserColumnName="EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnEMP_NAME" msprop:Generator_ColumnPropNameInRow="EMP_NAME" msprop:Generator_ColumnPropNameInTable="EMP_NAMEColumn" msprop:Generator_UserColumnName="EMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="FROM_DT" msprop:Generator_ColumnVarNameInTable="columnFROM_DT" msprop:Generator_ColumnPropNameInRow="FROM_DT" msprop:Generator_ColumnPropNameInTable="FROM_DTColumn" msprop:Generator_UserColumnName="FROM_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="TO_DATE" msprop:Generator_ColumnVarNameInTable="columnTO_DATE" msprop:Generator_ColumnPropNameInRow="TO_DATE" msprop:Generator_ColumnPropNameInTable="TO_DATEColumn" msprop:Generator_UserColumnName="TO_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_CODE" msprop:Generator_ColumnVarNameInTable="columnLEAVE_CODE" msprop:Generator_ColumnPropNameInRow="LEAVE_CODE" msprop:Generator_ColumnPropNameInTable="LEAVE_CODEColumn" msprop:Generator_UserColumnName="LEAVE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYSSL" msprop:Generator_ColumnVarNameInTable="columnDAYSSL" msprop:Generator_ColumnPropNameInRow="DAYSSL" msprop:Generator_ColumnPropNameInTable="DAYSSLColumn" msprop:Generator_UserColumnName="DAYSSL" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYSCL" msprop:Generator_ColumnVarNameInTable="columnDAYSCL" msprop:Generator_ColumnPropNameInRow="DAYSCL" msprop:Generator_ColumnPropNameInTable="DAYSCLColumn" msprop:Generator_UserColumnName="DAYSCL" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYSPL" msprop:Generator_ColumnVarNameInTable="columnDAYSPL" msprop:Generator_ColumnPropNameInRow="DAYSPL" msprop:Generator_ColumnPropNameInTable="DAYSPLColumn" msprop:Generator_UserColumnName="DAYSPL" type="xs:string" minOccurs="0" />
+              <xs:element name="OPENING_BAL_CL" msprop:Generator_ColumnVarNameInTable="columnOPENING_BAL_CL" msprop:Generator_ColumnPropNameInRow="OPENING_BAL_CL" msprop:Generator_ColumnPropNameInTable="OPENING_BAL_CLColumn" msprop:Generator_UserColumnName="OPENING_BAL_CL" type="xs:string" minOccurs="0" />
+              <xs:element name="OPENING_BAL_SL" msprop:Generator_ColumnVarNameInTable="columnOPENING_BAL_SL" msprop:Generator_ColumnPropNameInRow="OPENING_BAL_SL" msprop:Generator_ColumnPropNameInTable="OPENING_BAL_SLColumn" msprop:Generator_UserColumnName="OPENING_BAL_SL" type="xs:string" minOccurs="0" />
+              <xs:element name="OPENING_BAL_PL" msprop:Generator_ColumnVarNameInTable="columnOPENING_BAL_PL" msprop:Generator_ColumnPropNameInRow="OPENING_BAL_PL" msprop:Generator_ColumnPropNameInTable="OPENING_BAL_PLColumn" msprop:Generator_UserColumnName="OPENING_BAL_PL" type="xs:string" minOccurs="0" />
+              <xs:element name="OPENING_BAL_TI" msprop:Generator_ColumnVarNameInTable="columnOPENING_BAL_TI" msprop:Generator_ColumnPropNameInRow="OPENING_BAL_TI" msprop:Generator_ColumnPropNameInTable="OPENING_BAL_TIColumn" msprop:Generator_UserColumnName="OPENING_BAL_TI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Dsleaveslipdata" msprop:Generator_TableClassName="DsleaveslipdataDataTable" msprop:Generator_RowEvArgName="DsleaveslipdataRowChangeEvent" msprop:Generator_TableVarName="tableDsleaveslipdata" msprop:Generator_TablePropName="Dsleaveslipdata" msprop:Generator_RowDeletingName="DsleaveslipdataRowDeleting" msprop:Generator_RowChangingName="DsleaveslipdataRowChanging" msprop:Generator_RowDeletedName="DsleaveslipdataRowDeleted" msprop:Generator_RowClassName="DsleaveslipdataRow" msprop:Generator_RowEvHandlerName="DsleaveslipdataRowChangeEventHandler" msprop:Generator_RowChangedName="DsleaveslipdataRowChanged" msprop:Generator_UserTableName="Dsleaveslipdata">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FROM_DT" msprop:Generator_ColumnVarNameInTable="columnFROM_DT" msprop:Generator_ColumnPropNameInRow="FROM_DT" msprop:Generator_ColumnPropNameInTable="FROM_DTColumn" msprop:Generator_UserColumnName="FROM_DT" type="xs:string" minOccurs="0" />
+              <xs:element name="TO_DATE" msprop:Generator_ColumnVarNameInTable="columnTO_DATE" msprop:Generator_ColumnPropNameInRow="TO_DATE" msprop:Generator_ColumnPropNameInTable="TO_DATEColumn" msprop:Generator_UserColumnName="TO_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_CODE" msprop:Generator_ColumnVarNameInTable="columnLEAVE_CODE" msprop:Generator_ColumnPropNameInRow="LEAVE_CODE" msprop:Generator_ColumnPropNameInTable="LEAVE_CODEColumn" msprop:Generator_UserColumnName="LEAVE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYSCL" msprop:Generator_ColumnVarNameInTable="columnDAYSCL" msprop:Generator_ColumnPropNameInRow="DAYSCL" msprop:Generator_ColumnPropNameInTable="DAYSCLColumn" msprop:Generator_UserColumnName="DAYSCL" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYSSL" msprop:Generator_ColumnVarNameInTable="columnDAYSSL" msprop:Generator_ColumnPropNameInRow="DAYSSL" msprop:Generator_ColumnPropNameInTable="DAYSSLColumn" msprop:Generator_UserColumnName="DAYSSL" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYSPL" msprop:Generator_ColumnVarNameInTable="columnDAYSPL" msprop:Generator_ColumnPropNameInRow="DAYSPL" msprop:Generator_ColumnPropNameInTable="DAYSPLColumn" msprop:Generator_UserColumnName="DAYSPL" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_BAL_SL" msprop:Generator_ColumnVarNameInTable="columnLEAVE_BAL_SL" msprop:Generator_ColumnPropNameInRow="LEAVE_BAL_SL" msprop:Generator_ColumnPropNameInTable="LEAVE_BAL_SLColumn" msprop:Generator_UserColumnName="LEAVE_BAL_SL" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_BAL_CL" msprop:Generator_ColumnVarNameInTable="columnLEAVE_BAL_CL" msprop:Generator_ColumnPropNameInRow="LEAVE_BAL_CL" msprop:Generator_ColumnPropNameInTable="LEAVE_BAL_CLColumn" msprop:Generator_UserColumnName="LEAVE_BAL_CL" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_BAL_PL" msprop:Generator_ColumnVarNameInTable="columnLEAVE_BAL_PL" msprop:Generator_ColumnPropNameInRow="LEAVE_BAL_PL" msprop:Generator_ColumnPropNameInTable="LEAVE_BAL_PLColumn" msprop:Generator_UserColumnName="LEAVE_BAL_PL" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_BAL_TI" msprop:Generator_ColumnVarNameInTable="columnLEAVE_BAL_TI" msprop:Generator_ColumnPropNameInRow="LEAVE_BAL_TI" msprop:Generator_ColumnPropNameInTable="LEAVE_BAL_TIColumn" msprop:Generator_UserColumnName="LEAVE_BAL_TI" type="xs:string" minOccurs="0" />
+              <xs:element name="DAYSTI" msprop:Generator_ColumnVarNameInTable="columnDAYSTI" msprop:Generator_ColumnPropNameInRow="DAYSTI" msprop:Generator_ColumnPropNameInTable="DAYSTIColumn" msprop:Generator_UserColumnName="DAYSTI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DsAttendanceAbsentData" msprop:Generator_TableClassName="DsAttendanceAbsentDataDataTable" msprop:Generator_RowEvArgName="DsAttendanceAbsentDataRowChangeEvent" msprop:Generator_TableVarName="tableDsAttendanceAbsentData" msprop:Generator_TablePropName="DsAttendanceAbsentData" msprop:Generator_RowDeletingName="DsAttendanceAbsentDataRowDeleting" msprop:Generator_RowChangingName="DsAttendanceAbsentDataRowChanging" msprop:Generator_RowDeletedName="DsAttendanceAbsentDataRowDeleted" msprop:Generator_RowClassName="DsAttendanceAbsentDataRow" msprop:Generator_RowEvHandlerName="DsAttendanceAbsentDataRowChangeEventHandler" msprop:Generator_RowChangedName="DsAttendanceAbsentDataRowChanged" msprop:Generator_UserTableName="DsAttendanceAbsentData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Day" msprop:Generator_ColumnVarNameInTable="columnDay" msprop:Generator_ColumnPropNameInRow="Day" msprop:Generator_ColumnPropNameInTable="DayColumn" msprop:Generator_UserColumnName="Day" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DsTotalAbsentDays" msprop:Generator_TableClassName="DsTotalAbsentDaysDataTable" msprop:Generator_RowEvArgName="DsTotalAbsentDaysRowChangeEvent" msprop:Generator_TableVarName="tableDsTotalAbsentDays" msprop:Generator_TablePropName="DsTotalAbsentDays" msprop:Generator_RowDeletingName="DsTotalAbsentDaysRowDeleting" msprop:Generator_RowChangingName="DsTotalAbsentDaysRowChanging" msprop:Generator_RowDeletedName="DsTotalAbsentDaysRowDeleted" msprop:Generator_RowClassName="DsTotalAbsentDaysRow" msprop:Generator_RowEvHandlerName="DsTotalAbsentDaysRowChangeEventHandler" msprop:Generator_RowChangedName="DsTotalAbsentDaysRowChanged" msprop:Generator_UserTableName="DsTotalAbsentDays">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OPEN_DATE" msprop:Generator_ColumnVarNameInTable="columnOPEN_DATE" msprop:Generator_ColumnPropNameInRow="OPEN_DATE" msprop:Generator_ColumnPropNameInTable="OPEN_DATEColumn" msprop:Generator_UserColumnName="OPEN_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="CLOSE_DATE" msprop:Generator_ColumnVarNameInTable="columnCLOSE_DATE" msprop:Generator_ColumnPropNameInRow="CLOSE_DATE" msprop:Generator_ColumnPropNameInTable="CLOSE_DATEColumn" msprop:Generator_UserColumnName="CLOSE_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="YEAR" msprop:Generator_ColumnVarNameInTable="columnYEAR" msprop:Generator_ColumnPropNameInRow="YEAR" msprop:Generator_ColumnPropNameInTable="YEARColumn" msprop:Generator_UserColumnName="YEAR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DsClosingbal" msprop:Generator_TableClassName="DsClosingbalDataTable" msprop:Generator_TableVarName="tableDsClosingbal" msprop:Generator_TablePropName="DsClosingbal" msprop:Generator_RowDeletingName="DsClosingbalRowDeleting" msprop:Generator_RowChangingName="DsClosingbalRowChanging" msprop:Generator_RowEvHandlerName="DsClosingbalRowChangeEventHandler" msprop:Generator_RowDeletedName="DsClosingbalRowDeleted" msprop:Generator_UserTableName="DsClosingbal" msprop:Generator_RowChangedName="DsClosingbalRowChanged" msprop:Generator_RowEvArgName="DsClosingbalRowChangeEvent" msprop:Generator_RowClassName="DsClosingbalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="closingbalcl" msprop:Generator_ColumnVarNameInTable="columnclosingbalcl" msprop:Generator_ColumnPropNameInRow="closingbalcl" msprop:Generator_ColumnPropNameInTable="closingbalclColumn" msprop:Generator_UserColumnName="closingbalcl" type="xs:string" minOccurs="0" />
+              <xs:element name="closingbalpl" msprop:Generator_ColumnVarNameInTable="columnclosingbalpl" msprop:Generator_ColumnPropNameInRow="closingbalpl" msprop:Generator_ColumnPropNameInTable="closingbalplColumn" msprop:Generator_UserColumnName="closingbalpl" type="xs:string" minOccurs="0" />
+              <xs:element name="closingbalti" msprop:Generator_ColumnVarNameInTable="columnclosingbalti" msprop:Generator_ColumnPropNameInRow="closingbalti" msprop:Generator_ColumnPropNameInTable="closingbaltiColumn" msprop:Generator_UserColumnName="closingbalti" type="xs:string" minOccurs="0" />
+              <xs:element name="closingbalsl" msprop:Generator_ColumnVarNameInTable="columnclosingbalsl" msprop:Generator_ColumnPropNameInRow="closingbalsl" msprop:Generator_ColumnPropNameInTable="closingbalslColumn" msprop:Generator_UserColumnName="closingbalsl" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DsDate" msprop:Generator_TableClassName="DsDateDataTable" msprop:Generator_TableVarName="tableDsDate" msprop:Generator_RowChangedName="DsDateRowChanged" msprop:Generator_TablePropName="DsDate" msprop:Generator_RowDeletingName="DsDateRowDeleting" msprop:Generator_RowChangingName="DsDateRowChanging" msprop:Generator_RowEvHandlerName="DsDateRowChangeEventHandler" msprop:Generator_RowDeletedName="DsDateRowDeleted" msprop:Generator_RowClassName="DsDateRow" msprop:Generator_UserTableName="DsDate" msprop:Generator_RowEvArgName="DsDateRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="YEAR" msprop:Generator_ColumnVarNameInTable="columnYEAR" msprop:Generator_ColumnPropNameInRow="YEAR" msprop:Generator_ColumnPropNameInTable="YEARColumn" msprop:Generator_UserColumnName="YEAR" type="xs:string" minOccurs="0" />
+              <xs:element name="OPEN_DATE" msprop:Generator_ColumnVarNameInTable="columnOPEN_DATE" msprop:Generator_ColumnPropNameInRow="OPEN_DATE" msprop:Generator_ColumnPropNameInTable="OPEN_DATEColumn" msprop:Generator_UserColumnName="OPEN_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="CLOSE_DATE" msprop:Generator_ColumnVarNameInTable="columnCLOSE_DATE" msprop:Generator_ColumnPropNameInRow="CLOSE_DATE" msprop:Generator_ColumnPropNameInTable="CLOSE_DATEColumn" msprop:Generator_UserColumnName="CLOSE_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

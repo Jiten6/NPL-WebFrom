@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LocationReport" targetNamespace="http://tempuri.org/LocationReport.xsd" xmlns:mstns="http://tempuri.org/LocationReport.xsd" xmlns="http://tempuri.org/LocationReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LocationReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="LocationReport" msprop:Generator_UserDSName="LocationReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtLocation" msprop:Generator_TableClassName="dtLocationDataTable" msprop:Generator_TableVarName="tabledtLocation" msprop:Generator_TablePropName="dtLocation" msprop:Generator_RowDeletingName="dtLocationRowDeleting" msprop:Generator_RowChangingName="dtLocationRowChanging" msprop:Generator_RowEvHandlerName="dtLocationRowChangeEventHandler" msprop:Generator_RowDeletedName="dtLocationRowDeleted" msprop:Generator_UserTableName="dtLocation" msprop:Generator_RowChangedName="dtLocationRowChanged" msprop:Generator_RowEvArgName="dtLocationRowChangeEvent" msprop:Generator_RowClassName="dtLocationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Company" msprop:Generator_ColumnVarNameInTable="columnCompany" msprop:Generator_ColumnPropNameInRow="Company" msprop:Generator_ColumnPropNameInTable="CompanyColumn" msprop:Generator_UserColumnName="Company" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee" msprop:Generator_ColumnVarNameInTable="columnEmployee" msprop:Generator_ColumnPropNameInRow="Employee" msprop:Generator_ColumnPropNameInTable="EmployeeColumn" msprop:Generator_UserColumnName="Employee" type="xs:string" minOccurs="0" />
+              <xs:element name="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Device" msprop:Generator_ColumnVarNameInTable="columnDevice" msprop:Generator_ColumnPropNameInRow="Device" msprop:Generator_ColumnPropNameInTable="DeviceColumn" msprop:Generator_UserColumnName="Device" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Longitude" msprop:Generator_ColumnVarNameInTable="columnLongitude" msprop:Generator_ColumnPropNameInRow="Longitude" msprop:Generator_ColumnPropNameInTable="LongitudeColumn" msprop:Generator_UserColumnName="Longitude" type="xs:string" minOccurs="0" />
+              <xs:element name="Latitude" msprop:Generator_ColumnVarNameInTable="columnLatitude" msprop:Generator_ColumnPropNameInRow="Latitude" msprop:Generator_ColumnPropNameInTable="LatitudeColumn" msprop:Generator_UserColumnName="Latitude" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="InTime" msprop:Generator_ColumnVarNameInTable="columnInTime" msprop:Generator_ColumnPropNameInRow="InTime" msprop:Generator_ColumnPropNameInTable="InTimeColumn" msprop:Generator_UserColumnName="InTime" type="xs:string" minOccurs="0" />
+              <xs:element name="OutTime" msprop:Generator_ColumnVarNameInTable="columnOutTime" msprop:Generator_ColumnPropNameInRow="OutTime" msprop:Generator_ColumnPropNameInTable="OutTimeColumn" msprop:Generator_UserColumnName="OutTime" type="xs:string" minOccurs="0" />
+              <xs:element name="Hours" msprop:Generator_ColumnVarNameInTable="columnHours" msprop:Generator_ColumnPropNameInRow="Hours" msprop:Generator_ColumnPropNameInTable="HoursColumn" msprop:Generator_UserColumnName="Hours" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

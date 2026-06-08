@@ -1,0 +1,119 @@
+drpAllw_SelectedIndexChanged
+
+
+protected void lnkCompMainNo_Click(object sender, EventArgs e)
+{
+try
+{
+ClearAll();
+DataSet ds = null;
+lblMessage.Text = "";
+LinkButton lnkPhoneNo = (LinkButton)sender;
+string id = ((Label)lnkPhoneNo.NamingContainer.FindControl("lblEntryId")).Text;
+
+Session["CompMainId"] = id;
+DisplayCompMainData();
+trReport.Visible = true;
+ds = objFlexi.GetComMainStatus((string)Session["sCompID"], (string)Session["sEmpID"], id);
+
+if (ds.Tables[0].Rows[0]["STATUS"].ToString() == "")
+{
+trAudit.Visible = true;
+trStatus.Visible = true;
+btnSubmit.Visible = false;
+trname.Visible = false;
+trlblname.Visible = false;
+trPocketNewBtn.Visible = false;
+trPocketList.Visible = false;
+lblStatus.Text = "Submitted";
+lblStatus.ForeColor = System.Drawing.Color.Red;
+gvStatus.DataSource = ds.Tables[1];
+gvStatus.DataBind();
+}
+else if (ds.Tables[0].Rows[0]["STATUS"].ToString() == "1")
+{
+trAudit.Visible = true;
+trStatus.Visible = true;
+btnSubmit.Visible = false;
+trname.Visible = false;
+trlblname.Visible = false;
+trPocketNewBtn.Visible = false;
+trPocketList.Visible = false;
+
+gvStatus.DataSource = ds.Tables[1];
+gvStatus.DataBind();
+
+lblStatus.Text = "Approved";
+lblStatus.ForeColor = System.Drawing.Color.Red;
+lblRemark.Text = ds.Tables[2].Rows[0]["REMARKS_CHECKED"].ToString();
+}
+else if (ds.Tables[0].Rows[0]["STATUS"].ToString() == "2")
+{
+trAudit.Visible = true;
+trStatus.Visible = true;
+btnSubmit.Visible = false;
+trname.Visible = false;
+trlblname.Visible = false;
+trPocketNewBtn.Visible = false;
+trPocketList.Visible = false;
+
+gvStatus.DataSource = ds.Tables[1];
+gvStatus.DataBind();
+
+lblStatus.Text = "Checked";
+lblStatus.ForeColor = System.Drawing.Color.Red;
+lblRemark.Text = ds.Tables[2].Rows[0]["REMARKS_CHECKED"].ToString();
+}
+else if (ds.Tables[0].Rows[0]["STATUS"].ToString() == "-1")
+{
+trAudit.Visible = true;
+trStatus.Visible = true;
+btnSubmit.Visible = false;
+trname.Visible = false;
+trlblname.Visible = false;
+trPocketNewBtn.Visible = false;
+trPocketList.Visible = false;
+
+gvStatus.DataSource = ds.Tables[1];
+gvStatus.DataBind();
+lblStatus.Text = "Reviewed";
+lblStatus.ForeColor = System.Drawing.Color.Red;
+lblRemark.Text = ds.Tables[2].Rows[0]["REMARKS_CHECKED"].ToString();
+}
+else if (ds.Tables[0].Rows[0]["STATUS"].ToString() == "0")
+{
+trAudit.Visible = true;
+trStatus.Visible = true;
+btnSubmit.Visible = true;
+trname.Visible = false;
+trlblname.Visible = false;
+trPocketNewBtn.Visible = false;
+trPocketList.Visible = false;
+
+gvStatus.DataSource = ds.Tables[1];
+gvStatus.DataBind();
+lblStatus.Text = "Rejected";
+lblStatus.ForeColor = System.Drawing.Color.Red;
+lblRemark.Text = ds.Tables[2].Rows[0]["REMARKS_CHECKED"].ToString();
+}
+else
+{
+lblEligCompMaint.Text = "Eligibility (Yearly) :";
+trname.Visible = false;
+trlblname.Visible = false;
+trPocketNewBtn.Visible = false;
+trPocketList.Visible = false;
+
+trAudit.Visible = false;
+trStatus.Visible = false;
+lblYear.Visible = false;
+drpSelectFinancialYear.Visible = false;
+}
+
+
+}
+catch (Exception ex)
+{
+lblMessage.Text = ex.Message;
+}
+}

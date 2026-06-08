@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPortal2023", "NewPortal2023\NewPortal2023.csproj", "{CFCF438D-2615-498B-8E8E-61C45A87A34D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCF438D-2615-498B-8E8E-61C45A87A34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCF438D-2615-498B-8E8E-61C45A87A34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCF438D-2615-498B-8E8E-61C45A87A34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCF438D-2615-498B-8E8E-61C45A87A34D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64622E3F-5283-4602-8663-0E55AFA997A7}
+	EndGlobalSection
+EndGlobal

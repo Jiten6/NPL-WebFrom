@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsflexi" targetNamespace="http://tempuri.org/dsflexi.xsd" xmlns:mstns="http://tempuri.org/dsflexi.xsd" xmlns="http://tempuri.org/dsflexi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsflexi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsflexi" msprop:Generator_UserDSName="dsflexi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtFlexiDetailsSAL" msprop:Generator_TableClassName="dtFlexiDetailsSALDataTable" msprop:Generator_TableVarName="tabledtFlexiDetailsSAL" msprop:Generator_TablePropName="dtFlexiDetailsSAL" msprop:Generator_RowDeletingName="dtFlexiDetailsSALRowDeleting" msprop:Generator_RowChangingName="dtFlexiDetailsSALRowChanging" msprop:Generator_RowEvHandlerName="dtFlexiDetailsSALRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFlexiDetailsSALRowDeleted" msprop:Generator_UserTableName="dtFlexiDetailsSAL" msprop:Generator_RowChangedName="dtFlexiDetailsSALRowChanged" msprop:Generator_RowEvArgName="dtFlexiDetailsSALRowChangeEvent" msprop:Generator_RowClassName="dtFlexiDetailsSALRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ALLWDED_DESC" msprop:Generator_ColumnVarNameInTable="columnALLWDED_DESC" msprop:Generator_ColumnPropNameInRow="ALLWDED_DESC" msprop:Generator_ColumnPropNameInTable="ALLWDED_DESCColumn" msprop:Generator_UserColumnName="ALLWDED_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="Fix_Amount" msprop:Generator_ColumnVarNameInTable="columnFix_Amount" msprop:Generator_ColumnPropNameInRow="Fix_Amount" msprop:Generator_ColumnPropNameInTable="Fix_AmountColumn" msprop:Generator_UserColumnName="Fix_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="CHKFLAG" msprop:Generator_ColumnVarNameInTable="columnCHKFLAG" msprop:Generator_ColumnPropNameInRow="CHKFLAG" msprop:Generator_ColumnPropNameInTable="CHKFLAGColumn" msprop:Generator_UserColumnName="CHKFLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_TYPE" msprop:Generator_ColumnVarNameInTable="columnGROUP_TYPE" msprop:Generator_ColumnPropNameInRow="GROUP_TYPE" msprop:Generator_ColumnPropNameInTable="GROUP_TYPEColumn" msprop:Generator_UserColumnName="GROUP_TYPE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtEmpDetails" msprop:Generator_TableClassName="dtEmpDetailsDataTable" msprop:Generator_TableVarName="tabledtEmpDetails" msprop:Generator_TablePropName="dtEmpDetails" msprop:Generator_RowDeletingName="dtEmpDetailsRowDeleting" msprop:Generator_RowChangingName="dtEmpDetailsRowChanging" msprop:Generator_RowEvHandlerName="dtEmpDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="dtEmpDetailsRowDeleted" msprop:Generator_UserTableName="dtEmpDetails" msprop:Generator_RowChangedName="dtEmpDetailsRowChanged" msprop:Generator_RowEvArgName="dtEmpDetailsRowChangeEvent" msprop:Generator_RowClassName="dtEmpDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnEMP_MID" msprop:Generator_ColumnPropNameInRow="EMP_MID" msprop:Generator_ColumnPropNameInTable="EMP_MIDColumn" msprop:Generator_UserColumnName="EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnEMP_NAME" msprop:Generator_ColumnPropNameInRow="EMP_NAME" msprop:Generator_ColumnPropNameInTable="EMP_NAMEColumn" msprop:Generator_UserColumnName="EMP_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFlexiDetailsFLX" msprop:Generator_TableClassName="dtFlexiDetailsFLXDataTable" msprop:Generator_TableVarName="tabledtFlexiDetailsFLX" msprop:Generator_TablePropName="dtFlexiDetailsFLX" msprop:Generator_RowDeletingName="dtFlexiDetailsFLXRowDeleting" msprop:Generator_RowChangingName="dtFlexiDetailsFLXRowChanging" msprop:Generator_RowEvHandlerName="dtFlexiDetailsFLXRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFlexiDetailsFLXRowDeleted" msprop:Generator_UserTableName="dtFlexiDetailsFLX" msprop:Generator_RowChangedName="dtFlexiDetailsFLXRowChanged" msprop:Generator_RowEvArgName="dtFlexiDetailsFLXRowChangeEvent" msprop:Generator_RowClassName="dtFlexiDetailsFLXRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ALLWDED_DESC" msprop:Generator_ColumnVarNameInTable="columnALLWDED_DESC" msprop:Generator_ColumnPropNameInRow="ALLWDED_DESC" msprop:Generator_ColumnPropNameInTable="ALLWDED_DESCColumn" msprop:Generator_UserColumnName="ALLWDED_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="Fix_Amount" msprop:Generator_ColumnVarNameInTable="columnFix_Amount" msprop:Generator_ColumnPropNameInRow="Fix_Amount" msprop:Generator_ColumnPropNameInTable="Fix_AmountColumn" msprop:Generator_UserColumnName="Fix_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="CHKFLAG" msprop:Generator_ColumnVarNameInTable="columnCHKFLAG" msprop:Generator_ColumnPropNameInRow="CHKFLAG" msprop:Generator_ColumnPropNameInTable="CHKFLAGColumn" msprop:Generator_UserColumnName="CHKFLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_TYPE" msprop:Generator_ColumnVarNameInTable="columnGROUP_TYPE" msprop:Generator_ColumnPropNameInRow="GROUP_TYPE" msprop:Generator_ColumnPropNameInTable="GROUP_TYPEColumn" msprop:Generator_UserColumnName="GROUP_TYPE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFlexiDetailsOTH" msprop:Generator_TableClassName="dtFlexiDetailsOTHDataTable" msprop:Generator_TableVarName="tabledtFlexiDetailsOTH" msprop:Generator_TablePropName="dtFlexiDetailsOTH" msprop:Generator_RowDeletingName="dtFlexiDetailsOTHRowDeleting" msprop:Generator_RowChangingName="dtFlexiDetailsOTHRowChanging" msprop:Generator_RowEvHandlerName="dtFlexiDetailsOTHRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFlexiDetailsOTHRowDeleted" msprop:Generator_UserTableName="dtFlexiDetailsOTH" msprop:Generator_RowChangedName="dtFlexiDetailsOTHRowChanged" msprop:Generator_RowEvArgName="dtFlexiDetailsOTHRowChangeEvent" msprop:Generator_RowClassName="dtFlexiDetailsOTHRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ALLWDED_DESC" msprop:Generator_ColumnVarNameInTable="columnALLWDED_DESC" msprop:Generator_ColumnPropNameInRow="ALLWDED_DESC" msprop:Generator_ColumnPropNameInTable="ALLWDED_DESCColumn" msprop:Generator_UserColumnName="ALLWDED_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="Fix_Amount" msprop:Generator_ColumnVarNameInTable="columnFix_Amount" msprop:Generator_ColumnPropNameInRow="Fix_Amount" msprop:Generator_ColumnPropNameInTable="Fix_AmountColumn" msprop:Generator_UserColumnName="Fix_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="CHKFLAG" msprop:Generator_ColumnVarNameInTable="columnCHKFLAG" msprop:Generator_ColumnPropNameInRow="CHKFLAG" msprop:Generator_ColumnPropNameInTable="CHKFLAGColumn" msprop:Generator_UserColumnName="CHKFLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUP_TYPE" msprop:Generator_ColumnVarNameInTable="columnGROUP_TYPE" msprop:Generator_ColumnPropNameInRow="GROUP_TYPE" msprop:Generator_ColumnPropNameInTable="GROUP_TYPEColumn" msprop:Generator_UserColumnName="GROUP_TYPE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFlexiComp" msprop:Generator_TableClassName="dtFlexiCompDataTable" msprop:Generator_TableVarName="tabledtFlexiComp" msprop:Generator_RowChangedName="dtFlexiCompRowChanged" msprop:Generator_TablePropName="dtFlexiComp" msprop:Generator_RowDeletingName="dtFlexiCompRowDeleting" msprop:Generator_RowChangingName="dtFlexiCompRowChanging" msprop:Generator_RowEvHandlerName="dtFlexiCompRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFlexiCompRowDeleted" msprop:Generator_RowClassName="dtFlexiCompRow" msprop:Generator_UserTableName="dtFlexiComp" msprop:Generator_RowEvArgName="dtFlexiCompRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnEMP_MID" msprop:Generator_ColumnPropNameInRow="EMP_MID" msprop:Generator_ColumnPropNameInTable="EMP_MIDColumn" msprop:Generator_UserColumnName="EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnEMP_NAME" msprop:Generator_ColumnPropNameInRow="EMP_NAME" msprop:Generator_ColumnPropNameInTable="EMP_NAMEColumn" msprop:Generator_UserColumnName="EMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="FLEXI_DATE" msprop:Generator_ColumnVarNameInTable="columnFLEXI_DATE" msprop:Generator_ColumnPropNameInRow="FLEXI_DATE" msprop:Generator_ColumnPropNameInTable="FLEXI_DATEColumn" msprop:Generator_UserColumnName="FLEXI_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFlexiCompDetails" msprop:Generator_TableClassName="dtFlexiCompDetailsDataTable" msprop:Generator_TableVarName="tabledtFlexiCompDetails" msprop:Generator_RowChangedName="dtFlexiCompDetailsRowChanged" msprop:Generator_TablePropName="dtFlexiCompDetails" msprop:Generator_RowDeletingName="dtFlexiCompDetailsRowDeleting" msprop:Generator_RowChangingName="dtFlexiCompDetailsRowChanging" msprop:Generator_RowEvHandlerName="dtFlexiCompDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFlexiCompDetailsRowDeleted" msprop:Generator_RowClassName="dtFlexiCompDetailsRow" msprop:Generator_UserTableName="dtFlexiCompDetails" msprop:Generator_RowEvArgName="dtFlexiCompDetailsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ALLWDED_DESC" msdata:Caption="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnALLWDED_DESC" msprop:Generator_ColumnPropNameInRow="ALLWDED_DESC" msprop:Generator_ColumnPropNameInTable="ALLWDED_DESCColumn" msprop:Generator_UserColumnName="ALLWDED_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="Fix_Amount" msdata:Caption="EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnFix_Amount" msprop:Generator_ColumnPropNameInRow="Fix_Amount" msprop:Generator_ColumnPropNameInTable="Fix_AmountColumn" msprop:Generator_UserColumnName="Fix_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msdata:Caption="FLEXI_DATE" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_ACCEPTED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_ACCEPTED" msprop:Generator_ColumnPropNameInRow="AMOUNT_ACCEPTED" msprop:Generator_ColumnPropNameInTable="AMOUNT_ACCEPTEDColumn" msprop:Generator_UserColumnName="AMOUNT_ACCEPTED" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_REJECTED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_REJECTED" msprop:Generator_ColumnPropNameInRow="AMOUNT_REJECTED" msprop:Generator_ColumnPropNameInTable="AMOUNT_REJECTEDColumn" msprop:Generator_UserColumnName="AMOUNT_REJECTED" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

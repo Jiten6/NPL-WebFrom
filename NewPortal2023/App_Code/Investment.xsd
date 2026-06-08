@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Investment" targetNamespace="http://tempuri.org/Investment.xsd" xmlns:mstns="http://tempuri.org/Investment.xsd" xmlns="http://tempuri.org/Investment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Investment" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Investment" msprop:Generator_UserDSName="Investment">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtEmployeesInfo" msprop:Generator_TableClassName="dtEmployeesInfoDataTable" msprop:Generator_TableVarName="tabledtEmployeesInfo" msprop:Generator_TablePropName="dtEmployeesInfo" msprop:Generator_RowDeletingName="dtEmployeesInfoRowDeleting" msprop:Generator_RowChangingName="dtEmployeesInfoRowChanging" msprop:Generator_RowEvHandlerName="dtEmployeesInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="dtEmployeesInfoRowDeleted" msprop:Generator_UserTableName="dtEmployeesInfo" msprop:Generator_RowChangedName="dtEmployeesInfoRowChanged" msprop:Generator_RowEvArgName="dtEmployeesInfoRowChangeEvent" msprop:Generator_RowClassName="dtEmployeesInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_DETAILS" msprop:Generator_ColumnVarNameInTable="columnOTHER_DETAILS" msprop:Generator_ColumnPropNameInRow="OTHER_DETAILS" msprop:Generator_ColumnPropNameInTable="OTHER_DETAILSColumn" msprop:Generator_UserColumnName="OTHER_DETAILS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtInvestDetails" msprop:Generator_TableClassName="dtInvestDetailsDataTable" msprop:Generator_TableVarName="tabledtInvestDetails" msprop:Generator_TablePropName="dtInvestDetails" msprop:Generator_RowDeletingName="dtInvestDetailsRowDeleting" msprop:Generator_RowChangingName="dtInvestDetailsRowChanging" msprop:Generator_RowEvHandlerName="dtInvestDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="dtInvestDetailsRowDeleted" msprop:Generator_UserTableName="dtInvestDetails" msprop:Generator_RowChangedName="dtInvestDetailsRowChanged" msprop:Generator_RowEvArgName="dtInvestDetailsRowChangeEvent" msprop:Generator_RowClassName="dtInvestDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="LIMIT" msprop:Generator_ColumnVarNameInTable="columnLIMIT" msprop:Generator_ColumnPropNameInRow="LIMIT" msprop:Generator_ColumnPropNameInTable="LIMITColumn" msprop:Generator_UserColumnName="LIMIT" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtLandLordInfo" msprop:Generator_TableClassName="dtLandLordInfoDataTable" msprop:Generator_TableVarName="tabledtLandLordInfo" msprop:Generator_TablePropName="dtLandLordInfo" msprop:Generator_RowDeletingName="dtLandLordInfoRowDeleting" msprop:Generator_RowChangingName="dtLandLordInfoRowChanging" msprop:Generator_RowEvHandlerName="dtLandLordInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="dtLandLordInfoRowDeleted" msprop:Generator_UserTableName="dtLandLordInfo" msprop:Generator_RowChangedName="dtLandLordInfoRowChanged" msprop:Generator_RowEvArgName="dtLandLordInfoRowChangeEvent" msprop:Generator_RowClassName="dtLandLordInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_DETAILS" msprop:Generator_ColumnVarNameInTable="columnOTHER_DETAILS" msprop:Generator_ColumnPropNameInRow="OTHER_DETAILS" msprop:Generator_ColumnPropNameInTable="OTHER_DETAILSColumn" msprop:Generator_UserColumnName="OTHER_DETAILS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtRentDecleration" msprop:Generator_TableClassName="dtRentDeclerationDataTable" msprop:Generator_TableVarName="tabledtRentDecleration" msprop:Generator_TablePropName="dtRentDecleration" msprop:Generator_RowDeletingName="dtRentDeclerationRowDeleting" msprop:Generator_RowChangingName="dtRentDeclerationRowChanging" msprop:Generator_RowEvHandlerName="dtRentDeclerationRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRentDeclerationRowDeleted" msprop:Generator_UserTableName="dtRentDecleration" msprop:Generator_RowChangedName="dtRentDeclerationRowChanged" msprop:Generator_RowEvArgName="dtRentDeclerationRowChangeEvent" msprop:Generator_RowClassName="dtRentDeclerationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="LIMIT_LAND" msprop:Generator_ColumnVarNameInTable="columnLIMIT_LAND" msprop:Generator_ColumnPropNameInRow="LIMIT_LAND" msprop:Generator_ColumnPropNameInTable="LIMIT_LANDColumn" msprop:Generator_UserColumnName="LIMIT_LAND" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="LANLORD_PAN" msprop:Generator_ColumnVarNameInTable="columnLANLORD_PAN" msprop:Generator_ColumnPropNameInRow="LANLORD_PAN" msprop:Generator_ColumnPropNameInTable="LANLORD_PANColumn" msprop:Generator_UserColumnName="LANLORD_PAN" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtLanderInfo" msprop:Generator_TableClassName="dtLanderInfoDataTable" msprop:Generator_TableVarName="tabledtLanderInfo" msprop:Generator_TablePropName="dtLanderInfo" msprop:Generator_RowDeletingName="dtLanderInfoRowDeleting" msprop:Generator_RowChangingName="dtLanderInfoRowChanging" msprop:Generator_RowEvHandlerName="dtLanderInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="dtLanderInfoRowDeleted" msprop:Generator_UserTableName="dtLanderInfo" msprop:Generator_RowChangedName="dtLanderInfoRowChanged" msprop:Generator_RowEvArgName="dtLanderInfoRowChangeEvent" msprop:Generator_RowClassName="dtLanderInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_DETAILS" msprop:Generator_ColumnVarNameInTable="columnOTHER_DETAILS" msprop:Generator_ColumnPropNameInRow="OTHER_DETAILS" msprop:Generator_ColumnPropNameInTable="OTHER_DETAILSColumn" msprop:Generator_UserColumnName="OTHER_DETAILS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtIHFDetails" msprop:Generator_TableClassName="dtIHFDetailsDataTable" msprop:Generator_TableVarName="tabledtIHFDetails" msprop:Generator_TablePropName="dtIHFDetails" msprop:Generator_RowDeletingName="dtIHFDetailsRowDeleting" msprop:Generator_RowChangingName="dtIHFDetailsRowChanging" msprop:Generator_RowEvHandlerName="dtIHFDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="dtIHFDetailsRowDeleted" msprop:Generator_UserTableName="dtIHFDetails" msprop:Generator_RowChangedName="dtIHFDetailsRowChanged" msprop:Generator_RowEvArgName="dtIHFDetailsRowChangeEvent" msprop:Generator_RowClassName="dtIHFDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="LIMIT" msprop:Generator_ColumnVarNameInTable="columnLIMIT" msprop:Generator_ColumnPropNameInRow="LIMIT" msprop:Generator_ColumnPropNameInTable="LIMITColumn" msprop:Generator_UserColumnName="LIMIT" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="PROP_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnPROP_ADDRESS" msprop:Generator_ColumnPropNameInRow="PROP_ADDRESS" msprop:Generator_ColumnPropNameInTable="PROP_ADDRESSColumn" msprop:Generator_UserColumnName="PROP_ADDRESS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtEmpInfoSup" msprop:Generator_TableClassName="dtEmpInfoSupDataTable" msprop:Generator_TableVarName="tabledtEmpInfoSup" msprop:Generator_RowChangedName="dtEmpInfoSupRowChanged" msprop:Generator_TablePropName="dtEmpInfoSup" msprop:Generator_RowDeletingName="dtEmpInfoSupRowDeleting" msprop:Generator_RowChangingName="dtEmpInfoSupRowChanging" msprop:Generator_RowEvHandlerName="dtEmpInfoSupRowChangeEventHandler" msprop:Generator_RowDeletedName="dtEmpInfoSupRowDeleted" msprop:Generator_RowClassName="dtEmpInfoSupRow" msprop:Generator_UserTableName="dtEmpInfoSup" msprop:Generator_RowEvArgName="dtEmpInfoSupRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_DETAILS" msprop:Generator_ColumnVarNameInTable="columnOTHER_DETAILS" msprop:Generator_ColumnPropNameInRow="OTHER_DETAILS" msprop:Generator_ColumnPropNameInTable="OTHER_DETAILSColumn" msprop:Generator_UserColumnName="OTHER_DETAILS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtIvestdetSup" msprop:Generator_TableClassName="dtIvestdetSupDataTable" msprop:Generator_TableVarName="tabledtIvestdetSup" msprop:Generator_RowChangedName="dtIvestdetSupRowChanged" msprop:Generator_TablePropName="dtIvestdetSup" msprop:Generator_RowDeletingName="dtIvestdetSupRowDeleting" msprop:Generator_RowChangingName="dtIvestdetSupRowChanging" msprop:Generator_RowEvHandlerName="dtIvestdetSupRowChangeEventHandler" msprop:Generator_RowDeletedName="dtIvestdetSupRowDeleted" msprop:Generator_RowClassName="dtIvestdetSupRow" msprop:Generator_UserTableName="dtIvestdetSup" msprop:Generator_RowEvArgName="dtIvestdetSupRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="LIMIT" msprop:Generator_ColumnVarNameInTable="columnLIMIT" msprop:Generator_ColumnPropNameInRow="LIMIT" msprop:Generator_ColumnPropNameInTable="LIMITColumn" msprop:Generator_UserColumnName="LIMIT" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_VERIFIED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_VERIFIED" msprop:Generator_ColumnPropNameInRow="AMOUNT_VERIFIED" msprop:Generator_ColumnPropNameInTable="AMOUNT_VERIFIEDColumn" msprop:Generator_UserColumnName="AMOUNT_VERIFIED" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_PENDING" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_PENDING" msprop:Generator_ColumnPropNameInRow="AMOUNT_PENDING" msprop:Generator_ColumnPropNameInTable="AMOUNT_PENDINGColumn" msprop:Generator_UserColumnName="AMOUNT_PENDING" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_REJECTED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_REJECTED" msprop:Generator_ColumnPropNameInRow="AMOUNT_REJECTED" msprop:Generator_ColumnPropNameInTable="AMOUNT_REJECTEDColumn" msprop:Generator_UserColumnName="AMOUNT_REJECTED" type="xs:string" minOccurs="0" />
+              <xs:element name="REMARKS" msprop:Generator_ColumnVarNameInTable="columnREMARKS" msprop:Generator_ColumnPropNameInRow="REMARKS" msprop:Generator_ColumnPropNameInTable="REMARKSColumn" msprop:Generator_UserColumnName="REMARKS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtLandLordinfoSup" msprop:Generator_TableClassName="dtLandLordinfoSupDataTable" msprop:Generator_TableVarName="tabledtLandLordinfoSup" msprop:Generator_RowChangedName="dtLandLordinfoSupRowChanged" msprop:Generator_TablePropName="dtLandLordinfoSup" msprop:Generator_RowDeletingName="dtLandLordinfoSupRowDeleting" msprop:Generator_RowChangingName="dtLandLordinfoSupRowChanging" msprop:Generator_RowEvHandlerName="dtLandLordinfoSupRowChangeEventHandler" msprop:Generator_RowDeletedName="dtLandLordinfoSupRowDeleted" msprop:Generator_RowClassName="dtLandLordinfoSupRow" msprop:Generator_UserTableName="dtLandLordinfoSup" msprop:Generator_RowEvArgName="dtLandLordinfoSupRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_DETAILS" msprop:Generator_ColumnVarNameInTable="columnOTHER_DETAILS" msprop:Generator_ColumnPropNameInRow="OTHER_DETAILS" msprop:Generator_ColumnPropNameInTable="OTHER_DETAILSColumn" msprop:Generator_UserColumnName="OTHER_DETAILS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtRentdeclSup" msprop:Generator_TableClassName="dtRentdeclSupDataTable" msprop:Generator_TableVarName="tabledtRentdeclSup" msprop:Generator_RowChangedName="dtRentdeclSupRowChanged" msprop:Generator_TablePropName="dtRentdeclSup" msprop:Generator_RowDeletingName="dtRentdeclSupRowDeleting" msprop:Generator_RowChangingName="dtRentdeclSupRowChanging" msprop:Generator_RowEvHandlerName="dtRentdeclSupRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRentdeclSupRowDeleted" msprop:Generator_RowClassName="dtRentdeclSupRow" msprop:Generator_UserTableName="dtRentdeclSup" msprop:Generator_RowEvArgName="dtRentdeclSupRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="LIMIT_LAND" msprop:Generator_ColumnVarNameInTable="columnLIMIT_LAND" msprop:Generator_ColumnPropNameInRow="LIMIT_LAND" msprop:Generator_ColumnPropNameInTable="LIMIT_LANDColumn" msprop:Generator_UserColumnName="LIMIT_LAND" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="LANLORD_PAN" msprop:Generator_ColumnVarNameInTable="columnLANLORD_PAN" msprop:Generator_ColumnPropNameInRow="LANLORD_PAN" msprop:Generator_ColumnPropNameInTable="LANLORD_PANColumn" msprop:Generator_UserColumnName="LANLORD_PAN" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_VERIFIED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_VERIFIED" msprop:Generator_ColumnPropNameInRow="AMOUNT_VERIFIED" msprop:Generator_ColumnPropNameInTable="AMOUNT_VERIFIEDColumn" msprop:Generator_UserColumnName="AMOUNT_VERIFIED" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_PENDING" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_PENDING" msprop:Generator_ColumnPropNameInRow="AMOUNT_PENDING" msprop:Generator_ColumnPropNameInTable="AMOUNT_PENDINGColumn" msprop:Generator_UserColumnName="AMOUNT_PENDING" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_REJECTED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_REJECTED" msprop:Generator_ColumnPropNameInRow="AMOUNT_REJECTED" msprop:Generator_ColumnPropNameInTable="AMOUNT_REJECTEDColumn" msprop:Generator_UserColumnName="AMOUNT_REJECTED" type="xs:string" minOccurs="0" />
+              <xs:element name="REMARKS" msprop:Generator_ColumnVarNameInTable="columnREMARKS" msprop:Generator_ColumnPropNameInRow="REMARKS" msprop:Generator_ColumnPropNameInTable="REMARKSColumn" msprop:Generator_UserColumnName="REMARKS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtLanderInfoSup" msprop:Generator_TableClassName="dtLanderInfoSupDataTable" msprop:Generator_TableVarName="tabledtLanderInfoSup" msprop:Generator_RowChangedName="dtLanderInfoSupRowChanged" msprop:Generator_TablePropName="dtLanderInfoSup" msprop:Generator_RowDeletingName="dtLanderInfoSupRowDeleting" msprop:Generator_RowChangingName="dtLanderInfoSupRowChanging" msprop:Generator_RowEvHandlerName="dtLanderInfoSupRowChangeEventHandler" msprop:Generator_RowDeletedName="dtLanderInfoSupRowDeleted" msprop:Generator_RowClassName="dtLanderInfoSupRow" msprop:Generator_UserTableName="dtLanderInfoSup" msprop:Generator_RowEvArgName="dtLanderInfoSupRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_DETAILS" msprop:Generator_ColumnVarNameInTable="columnOTHER_DETAILS" msprop:Generator_ColumnPropNameInRow="OTHER_DETAILS" msprop:Generator_ColumnPropNameInTable="OTHER_DETAILSColumn" msprop:Generator_UserColumnName="OTHER_DETAILS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtIHFDetSup" msprop:Generator_TableClassName="dtIHFDetSupDataTable" msprop:Generator_TableVarName="tabledtIHFDetSup" msprop:Generator_RowChangedName="dtIHFDetSupRowChanged" msprop:Generator_TablePropName="dtIHFDetSup" msprop:Generator_RowDeletingName="dtIHFDetSupRowDeleting" msprop:Generator_RowChangingName="dtIHFDetSupRowChanging" msprop:Generator_RowEvHandlerName="dtIHFDetSupRowChangeEventHandler" msprop:Generator_RowDeletedName="dtIHFDetSupRowDeleted" msprop:Generator_RowClassName="dtIHFDetSupRow" msprop:Generator_UserTableName="dtIHFDetSup" msprop:Generator_RowEvArgName="dtIHFDetSupRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_webdesc" msprop:Generator_ColumnVarNameInTable="columninv_webdesc" msprop:Generator_ColumnPropNameInRow="inv_webdesc" msprop:Generator_ColumnPropNameInTable="inv_webdescColumn" msprop:Generator_UserColumnName="inv_webdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="LIMIT" msprop:Generator_ColumnVarNameInTable="columnLIMIT" msprop:Generator_ColumnPropNameInRow="LIMIT" msprop:Generator_ColumnPropNameInTable="LIMITColumn" msprop:Generator_UserColumnName="LIMIT" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="PROP_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnPROP_ADDRESS" msprop:Generator_ColumnPropNameInRow="PROP_ADDRESS" msprop:Generator_ColumnPropNameInTable="PROP_ADDRESSColumn" msprop:Generator_UserColumnName="PROP_ADDRESS" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_VERIFIED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_VERIFIED" msprop:Generator_ColumnPropNameInRow="AMOUNT_VERIFIED" msprop:Generator_ColumnPropNameInTable="AMOUNT_VERIFIEDColumn" msprop:Generator_UserColumnName="AMOUNT_VERIFIED" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_PENDING" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_PENDING" msprop:Generator_ColumnPropNameInRow="AMOUNT_PENDING" msprop:Generator_ColumnPropNameInTable="AMOUNT_PENDINGColumn" msprop:Generator_UserColumnName="AMOUNT_PENDING" type="xs:string" minOccurs="0" />
+              <xs:element name="AMOUNT_REJECTED" msprop:Generator_ColumnVarNameInTable="columnAMOUNT_REJECTED" msprop:Generator_ColumnPropNameInRow="AMOUNT_REJECTED" msprop:Generator_ColumnPropNameInTable="AMOUNT_REJECTEDColumn" msprop:Generator_UserColumnName="AMOUNT_REJECTED" type="xs:string" minOccurs="0" />
+              <xs:element name="REMARKS" msprop:Generator_ColumnVarNameInTable="columnREMARKS" msprop:Generator_ColumnPropNameInRow="REMARKS" msprop:Generator_ColumnPropNameInTable="REMARKSColumn" msprop:Generator_UserColumnName="REMARKS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

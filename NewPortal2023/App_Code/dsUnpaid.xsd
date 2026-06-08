@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsUnpaid" targetNamespace="http://tempuri.org/dsUnpaid.xsd" xmlns:mstns="http://tempuri.org/dsUnpaid.xsd" xmlns="http://tempuri.org/dsUnpaid.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsUnpaid" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsUnpaid" msprop:Generator_UserDSName="dsUnpaid">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsUnpaidReport" msprop:Generator_TableClassName="dsUnpaidReportDataTable" msprop:Generator_TableVarName="tabledsUnpaidReport" msprop:Generator_TablePropName="dsUnpaidReport" msprop:Generator_RowDeletingName="dsUnpaidReportRowDeleting" msprop:Generator_RowChangingName="dsUnpaidReportRowChanging" msprop:Generator_RowEvHandlerName="dsUnpaidReportRowChangeEventHandler" msprop:Generator_RowDeletedName="dsUnpaidReportRowDeleted" msprop:Generator_UserTableName="dsUnpaidReport" msprop:Generator_RowChangedName="dsUnpaidReportRowChanged" msprop:Generator_RowEvArgName="dsUnpaidReportRowChangeEvent" msprop:Generator_RowClassName="dsUnpaidReportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Payment_type" msprop:Generator_ColumnVarNameInTable="columnPayment_type" msprop:Generator_ColumnPropNameInRow="Payment_type" msprop:Generator_ColumnPropNameInTable="Payment_typeColumn" msprop:Generator_UserColumnName="Payment_type" type="xs:string" minOccurs="0" />
+              <xs:element name="Payment_date" msprop:Generator_ColumnVarNameInTable="columnPayment_date" msprop:Generator_ColumnPropNameInRow="Payment_date" msprop:Generator_ColumnPropNameInTable="Payment_dateColumn" msprop:Generator_UserColumnName="Payment_date" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_FNAME" msprop:Generator_ColumnVarNameInTable="columnEMP_FNAME" msprop:Generator_ColumnPropNameInRow="EMP_FNAME" msprop:Generator_ColumnPropNameInTable="EMP_FNAMEColumn" msprop:Generator_UserColumnName="EMP_FNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="BANK_ACCOUNT_NO" msprop:Generator_ColumnVarNameInTable="columnBANK_ACCOUNT_NO" msprop:Generator_ColumnPropNameInRow="BANK_ACCOUNT_NO" msprop:Generator_ColumnPropNameInTable="BANK_ACCOUNT_NOColumn" msprop:Generator_UserColumnName="BANK_ACCOUNT_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IFSC" msprop:Generator_ColumnVarNameInTable="columnIFSC" msprop:Generator_ColumnPropNameInRow="IFSC" msprop:Generator_ColumnPropNameInTable="IFSCColumn" msprop:Generator_UserColumnName="IFSC" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnEMP_MID" msprop:Generator_ColumnPropNameInRow="EMP_MID" msprop:Generator_ColumnPropNameInTable="EMP_MIDColumn" msprop:Generator_UserColumnName="EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="Claim_Date" msprop:Generator_ColumnVarNameInTable="columnClaim_Date" msprop:Generator_ColumnPropNameInRow="Claim_Date" msprop:Generator_ColumnPropNameInTable="Claim_DateColumn" msprop:Generator_UserColumnName="Claim_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Claim_Amount" msprop:Generator_ColumnVarNameInTable="columnClaim_Amount" msprop:Generator_ColumnPropNameInRow="Claim_Amount" msprop:Generator_ColumnPropNameInTable="Claim_AmountColumn" msprop:Generator_UserColumnName="Claim_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="ClaimApproved_Amount" msprop:Generator_ColumnVarNameInTable="columnClaimApproved_Amount" msprop:Generator_ColumnPropNameInRow="ClaimApproved_Amount" msprop:Generator_ColumnPropNameInTable="ClaimApproved_AmountColumn" msprop:Generator_UserColumnName="ClaimApproved_Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="Flag" msprop:Generator_ColumnVarNameInTable="columnFlag" msprop:Generator_ColumnPropNameInRow="Flag" msprop:Generator_ColumnPropNameInTable="FlagColumn" msprop:Generator_UserColumnName="Flag" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

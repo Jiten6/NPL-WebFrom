@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|c:\\users\\pares\\desktop\\npl_project\\npl_project\\new portal\\new portal\\newportal2023\\app_code\\performanceappraisal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\app_code\\performanceappraisal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\approvalemployeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\approvalemployeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|c:\\users\\pares\\desktop\\npl_project\\npl_project\\new portal\\new portal\\newportal2023\\ess\\employeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\employeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\approvalemployeetaskdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\approvalemployeetaskdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\approvalhodemployeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\approvalhodemployeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\approvalhremployeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\approvalhremployeetaskdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|c:\\users\\pares\\desktop\\npl_project\\npl_project\\new portal\\new portal\\newportal2023\\ess\\employeetaskdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\employeetaskdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\app_code\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\app_code\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\pmsreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\pmsreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\report.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\companyfactor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\companyfactor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\leaveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\leaveapplication.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\leaveapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\leaveapplication.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\newportal2023\\ess\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CFCF438D-2615-498B-8E8E-61C45A87A34D}|NewPortal2023\\NewPortal2023.csproj|solutionrelative:newportal2023\\ess\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PerformanceAppraisal.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\App_Code\\PerformanceAppraisal.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\App_Code\\PerformanceAppraisal.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\App_Code\\PerformanceAppraisal.cs",
+              "RelativeToolTip": "NewPortal2023\\App_Code\\PerformanceAppraisal.cs",
+              "ViewState": "AQIAAIIGAAAAAAAAAAAuwJgGAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T05:58:35.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeTaskDetails.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\EmployeeTaskDetails.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\EmployeeTaskDetails.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\EmployeeTaskDetails.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\EmployeeTaskDetails.aspx.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwDQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T12:43:36.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeTaskDetails.aspx",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\EmployeeTaskDetails.aspx",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\EmployeeTaskDetails.aspx",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\EmployeeTaskDetails.aspx",
+              "RelativeToolTip": "NewPortal2023\\ESS\\EmployeeTaskDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-24T04:40:43.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApprovalHREmployeeTaskDetails.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalHREmployeeTaskDetails.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\ApprovalHREmployeeTaskDetails.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalHREmployeeTaskDetails.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\ApprovalHREmployeeTaskDetails.aspx.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwE0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:57:42.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApprovalHODEmployeeTaskDetails.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalHODEmployeeTaskDetails.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\ApprovalHODEmployeeTaskDetails.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalHODEmployeeTaskDetails.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\ApprovalHODEmployeeTaskDetails.aspx.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwEsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:57:22.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApprovalEmployeeTaskDetails.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx.cs",
+              "ViewState": "AQIAANQGAAAAAAAAAAAcwPgGAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T11:44:48.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApprovalEmployeeTaskDetails.aspx",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx",
+              "RelativeToolTip": "NewPortal2023\\ESS\\ApprovalEmployeeTaskDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-09T11:44:47.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Report.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\Report.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\Report.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\Report.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\Report.aspx.cs",
+              "ViewState": "AQIAAOsCAAAAAAAAAAAUwAkDAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:34:16.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompanyFactor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\CompanyFactor.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\CompanyFactor.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\CompanyFactor.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\CompanyFactor.aspx.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAuwGMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:33:08.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\App_Code\\Email.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\App_Code\\Email.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\App_Code\\Email.cs",
+              "RelativeToolTip": "NewPortal2023\\App_Code\\Email.cs",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAkwCABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:30:42.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PMSReport.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\PMSReport.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\PMSReport.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\PMSReport.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\PMSReport.aspx.cs",
+              "ViewState": "AQIAAMoBAAAAAAAAAAAswO0BAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:12:12.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeaveApplication.aspx",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\LeaveApplication.aspx",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\LeaveApplication.aspx",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\LeaveApplication.aspx",
+              "RelativeToolTip": "NewPortal2023\\ESS\\LeaveApplication.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-08T12:30:20.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\Default.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\Default.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T12:22:48.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\Login.aspx",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\Login.aspx",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\Login.aspx",
+              "RelativeToolTip": "NewPortal2023\\ESS\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-08T12:21:14.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LeaveApplication.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\LeaveApplication.aspx.cs",
+              "RelativeDocumentMoniker": "NewPortal2023\\ESS\\LeaveApplication.aspx.cs",
+              "ToolTip": "C:\\Users\\pares\\Desktop\\NPL_PROJECT\\NPL_PROJECT\\New Portal\\New Portal\\NewPortal2023\\ESS\\LeaveApplication.aspx.cs",
+              "RelativeToolTip": "NewPortal2023\\ESS\\LeaveApplication.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T12:20:45.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

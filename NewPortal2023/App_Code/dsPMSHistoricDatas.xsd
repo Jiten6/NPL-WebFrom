@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPMSHistoricDatas" targetNamespace="http://tempuri.org/dsPMSHistoricDatas.xsd" xmlns:mstns="http://tempuri.org/dsPMSHistoricDatas.xsd" xmlns="http://tempuri.org/dsPMSHistoricDatas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPMSHistoricDatas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPMSHistoricDatas" msprop:Generator_UserDSName="dsPMSHistoricDatas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsPerformanceRating" msprop:Generator_TableClassName="dsPerformanceRatingDataTable" msprop:Generator_TableVarName="tabledsPerformanceRating" msprop:Generator_TablePropName="dsPerformanceRating" msprop:Generator_RowDeletingName="dsPerformanceRatingRowDeleting" msprop:Generator_RowChangingName="dsPerformanceRatingRowChanging" msprop:Generator_RowEvHandlerName="dsPerformanceRatingRowChangeEventHandler" msprop:Generator_RowDeletedName="dsPerformanceRatingRowDeleted" msprop:Generator_UserTableName="dsPerformanceRating" msprop:Generator_RowChangedName="dsPerformanceRatingRowChanged" msprop:Generator_RowEvArgName="dsPerformanceRatingRowChangeEvent" msprop:Generator_RowClassName="dsPerformanceRatingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnEMP_MID" msprop:Generator_ColumnPropNameInRow="EMP_MID" msprop:Generator_ColumnPropNameInTable="EMP_MIDColumn" msprop:Generator_UserColumnName="EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnEMP_NAME" msprop:Generator_ColumnPropNameInRow="EMP_NAME" msprop:Generator_ColumnPropNameInTable="EMP_NAMEColumn" msprop:Generator_UserColumnName="EMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="KRA_SCROE" msprop:Generator_ColumnVarNameInTable="columnKRA_SCROE" msprop:Generator_ColumnPropNameInRow="KRA_SCROE" msprop:Generator_ColumnPropNameInTable="KRA_SCROEColumn" msprop:Generator_UserColumnName="KRA_SCROE" type="xs:string" minOccurs="0" />
+              <xs:element name="MANAGERICAL_COMP_SCROE" msprop:Generator_ColumnVarNameInTable="columnMANAGERICAL_COMP_SCROE" msprop:Generator_ColumnPropNameInRow="MANAGERICAL_COMP_SCROE" msprop:Generator_ColumnPropNameInTable="MANAGERICAL_COMP_SCROEColumn" msprop:Generator_UserColumnName="MANAGERICAL_COMP_SCROE" type="xs:string" minOccurs="0" />
+              <xs:element name="PERFORMANCE_RATING" msprop:Generator_ColumnVarNameInTable="columnPERFORMANCE_RATING" msprop:Generator_ColumnPropNameInRow="PERFORMANCE_RATING" msprop:Generator_ColumnPropNameInTable="PERFORMANCE_RATINGColumn" msprop:Generator_UserColumnName="PERFORMANCE_RATING" type="xs:string" minOccurs="0" />
+              <xs:element name="ACCOUNTING_YEAR" msprop:Generator_ColumnVarNameInTable="columnACCOUNTING_YEAR" msprop:Generator_ColumnPropNameInRow="ACCOUNTING_YEAR" msprop:Generator_ColumnPropNameInTable="ACCOUNTING_YEARColumn" msprop:Generator_UserColumnName="ACCOUNTING_YEAR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dsLastPromotion" msprop:Generator_TableClassName="dsLastPromotionDataTable" msprop:Generator_TableVarName="tabledsLastPromotion" msprop:Generator_TablePropName="dsLastPromotion" msprop:Generator_RowDeletingName="dsLastPromotionRowDeleting" msprop:Generator_RowChangingName="dsLastPromotionRowChanging" msprop:Generator_RowEvHandlerName="dsLastPromotionRowChangeEventHandler" msprop:Generator_RowDeletedName="dsLastPromotionRowDeleted" msprop:Generator_UserTableName="dsLastPromotion" msprop:Generator_RowChangedName="dsLastPromotionRowChanged" msprop:Generator_RowEvArgName="dsLastPromotionRowChangeEvent" msprop:Generator_RowClassName="dsLastPromotionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnEMP_MID" msprop:Generator_ColumnPropNameInRow="EMP_MID" msprop:Generator_ColumnPropNameInTable="EMP_MIDColumn" msprop:Generator_UserColumnName="EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnEMP_NAME" msprop:Generator_ColumnPropNameInRow="EMP_NAME" msprop:Generator_ColumnPropNameInTable="EMP_NAMEColumn" msprop:Generator_UserColumnName="EMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LAST_PERFORMANCE_YEAR" msprop:Generator_ColumnVarNameInTable="columnLAST_PERFORMANCE_YEAR" msprop:Generator_ColumnPropNameInRow="LAST_PERFORMANCE_YEAR" msprop:Generator_ColumnPropNameInTable="LAST_PERFORMANCE_YEARColumn" msprop:Generator_UserColumnName="LAST_PERFORMANCE_YEAR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

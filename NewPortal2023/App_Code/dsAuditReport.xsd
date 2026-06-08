@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAuditReport" targetNamespace="http://tempuri.org/dsAuditReport.xsd" xmlns:mstns="http://tempuri.org/dsAuditReport.xsd" xmlns="http://tempuri.org/dsAuditReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAuditReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsAuditReport" msprop:Generator_UserDSName="dsAuditReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAttendanceReport" msprop:Generator_TableClassName="dtAttendanceReportDataTable" msprop:Generator_TableVarName="tabledtAttendanceReport" msprop:Generator_TablePropName="dtAttendanceReport" msprop:Generator_RowDeletingName="dtAttendanceReportRowDeleting" msprop:Generator_RowChangingName="dtAttendanceReportRowChanging" msprop:Generator_RowEvHandlerName="dtAttendanceReportRowChangeEventHandler" msprop:Generator_RowDeletedName="dtAttendanceReportRowDeleted" msprop:Generator_UserTableName="dtAttendanceReport" msprop:Generator_RowChangedName="dtAttendanceReportRowChanged" msprop:Generator_RowEvArgName="dtAttendanceReportRowChangeEvent" msprop:Generator_RowClassName="dtAttendanceReportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMPLOYEE_CODE" msprop:Generator_ColumnVarNameInTable="columnEMPLOYEE_CODE" msprop:Generator_ColumnPropNameInRow="EMPLOYEE_CODE" msprop:Generator_ColumnPropNameInTable="EMPLOYEE_CODEColumn" msprop:Generator_UserColumnName="EMPLOYEE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="EMPLOYEE_NAME" msprop:Generator_ColumnVarNameInTable="columnEMPLOYEE_NAME" msprop:Generator_ColumnPropNameInRow="EMPLOYEE_NAME" msprop:Generator_ColumnPropNameInTable="EMPLOYEE_NAMEColumn" msprop:Generator_UserColumnName="EMPLOYEE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInRow="DATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" msprop:Generator_UserColumnName="DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SHIFT_HRS" msprop:Generator_ColumnVarNameInTable="columnSHIFT_HRS" msprop:Generator_ColumnPropNameInRow="SHIFT_HRS" msprop:Generator_ColumnPropNameInTable="SHIFT_HRSColumn" msprop:Generator_UserColumnName="SHIFT_HRS" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL_WORKING_HRS" msprop:Generator_ColumnVarNameInTable="columnTOTAL_WORKING_HRS" msprop:Generator_ColumnPropNameInRow="TOTAL_WORKING_HRS" msprop:Generator_ColumnPropNameInTable="TOTAL_WORKING_HRSColumn" msprop:Generator_UserColumnName="TOTAL_WORKING_HRS" type="xs:string" minOccurs="0" />
+              <xs:element name="CURRENT_STATUS" msprop:Generator_ColumnVarNameInTable="columnCURRENT_STATUS" msprop:Generator_ColumnPropNameInRow="CURRENT_STATUS" msprop:Generator_ColumnPropNameInTable="CURRENT_STATUSColumn" msprop:Generator_UserColumnName="CURRENT_STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_UserColumnName="STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="SHIFT_SCHEDULE" msprop:Generator_ColumnVarNameInTable="columnSHIFT_SCHEDULE" msprop:Generator_ColumnPropNameInRow="SHIFT_SCHEDULE" msprop:Generator_ColumnPropNameInTable="SHIFT_SCHEDULEColumn" msprop:Generator_UserColumnName="SHIFT_SCHEDULE" type="xs:string" minOccurs="0" />
+              <xs:element name="NEW_SHIFT_SCHEDULE" msprop:Generator_ColumnVarNameInTable="columnNEW_SHIFT_SCHEDULE" msprop:Generator_ColumnPropNameInRow="NEW_SHIFT_SCHEDULE" msprop:Generator_ColumnPropNameInTable="NEW_SHIFT_SCHEDULEColumn" msprop:Generator_UserColumnName="NEW_SHIFT_SCHEDULE" type="xs:string" minOccurs="0" />
+              <xs:element name="TIME_IN" msprop:Generator_ColumnVarNameInTable="columnTIME_IN" msprop:Generator_ColumnPropNameInRow="TIME_IN" msprop:Generator_ColumnPropNameInTable="TIME_INColumn" msprop:Generator_UserColumnName="TIME_IN" type="xs:string" minOccurs="0" />
+              <xs:element name="NEW_TIME_IN" msprop:Generator_ColumnVarNameInTable="columnNEW_TIME_IN" msprop:Generator_ColumnPropNameInRow="NEW_TIME_IN" msprop:Generator_ColumnPropNameInTable="NEW_TIME_INColumn" msprop:Generator_UserColumnName="NEW_TIME_IN" type="xs:string" minOccurs="0" />
+              <xs:element name="TIME_OUT" msprop:Generator_ColumnVarNameInTable="columnTIME_OUT" msprop:Generator_ColumnPropNameInRow="TIME_OUT" msprop:Generator_ColumnPropNameInTable="TIME_OUTColumn" msprop:Generator_UserColumnName="TIME_OUT" type="xs:string" minOccurs="0" />
+              <xs:element name="NEW_TIME_OUT" msprop:Generator_ColumnVarNameInTable="columnNEW_TIME_OUT" msprop:Generator_ColumnPropNameInRow="NEW_TIME_OUT" msprop:Generator_ColumnPropNameInTable="NEW_TIME_OUTColumn" msprop:Generator_UserColumnName="NEW_TIME_OUT" type="xs:string" minOccurs="0" />
+              <xs:element name="OT" msprop:Generator_ColumnVarNameInTable="columnOT" msprop:Generator_ColumnPropNameInRow="OT" msprop:Generator_ColumnPropNameInTable="OTColumn" msprop:Generator_UserColumnName="OT" type="xs:string" minOccurs="0" />
+              <xs:element name="NEW_OT" msprop:Generator_ColumnVarNameInTable="columnNEW_OT" msprop:Generator_ColumnPropNameInRow="NEW_OT" msprop:Generator_ColumnPropNameInTable="NEW_OTColumn" msprop:Generator_UserColumnName="NEW_OT" type="xs:string" minOccurs="0" />
+              <xs:element name="EMPLOYEE_RECTFICATION_DATE" msprop:Generator_ColumnVarNameInTable="columnEMPLOYEE_RECTFICATION_DATE" msprop:Generator_ColumnPropNameInRow="EMPLOYEE_RECTFICATION_DATE" msprop:Generator_ColumnPropNameInTable="EMPLOYEE_RECTFICATION_DATEColumn" msprop:Generator_UserColumnName="EMPLOYEE_RECTFICATION_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="RM_CODE" msprop:Generator_ColumnVarNameInTable="columnRM_CODE" msprop:Generator_ColumnPropNameInRow="RM_CODE" msprop:Generator_ColumnPropNameInTable="RM_CODEColumn" msprop:Generator_UserColumnName="RM_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="RM_NAME" msprop:Generator_ColumnVarNameInTable="columnRM_NAME" msprop:Generator_ColumnPropNameInRow="RM_NAME" msprop:Generator_ColumnPropNameInTable="RM_NAMEColumn" msprop:Generator_UserColumnName="RM_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="RM_APPROVED_DATE" msprop:Generator_ColumnVarNameInTable="columnRM_APPROVED_DATE" msprop:Generator_ColumnPropNameInRow="RM_APPROVED_DATE" msprop:Generator_ColumnPropNameInTable="RM_APPROVED_DATEColumn" msprop:Generator_UserColumnName="RM_APPROVED_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="HR_EMP_MID" msprop:Generator_ColumnVarNameInTable="columnHR_EMP_MID" msprop:Generator_ColumnPropNameInRow="HR_EMP_MID" msprop:Generator_ColumnPropNameInTable="HR_EMP_MIDColumn" msprop:Generator_UserColumnName="HR_EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="rect_aid" msprop:Generator_ColumnVarNameInTable="columnrect_aid" msprop:Generator_ColumnPropNameInRow="rect_aid" msprop:Generator_ColumnPropNameInTable="rect_aidColumn" msprop:Generator_UserColumnName="rect_aid" type="xs:string" minOccurs="0" />
+              <xs:element name="HR_RECTIFICATION_DATE" msprop:Generator_ColumnVarNameInTable="columnHR_RECTIFICATION_DATE" msprop:Generator_ColumnPropNameInRow="HR_RECTIFICATION_DATE" msprop:Generator_ColumnPropNameInTable="HR_RECTIFICATION_DATEColumn" msprop:Generator_UserColumnName="HR_RECTIFICATION_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="HR_EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnHR_EMP_NAME" msprop:Generator_ColumnPropNameInRow="HR_EMP_NAME" msprop:Generator_ColumnPropNameInTable="HR_EMP_NAMEColumn" msprop:Generator_UserColumnName="HR_EMP_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

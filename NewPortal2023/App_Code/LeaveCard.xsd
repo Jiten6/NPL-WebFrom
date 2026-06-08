@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LeaveCard" targetNamespace="http://tempuri.org/LeaveCard.xsd" xmlns:mstns="http://tempuri.org/LeaveCard.xsd" xmlns="http://tempuri.org/LeaveCard.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LeaveCard" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="LeaveCard" msprop:Generator_UserDSName="LeaveCard">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsLeaveCardDetails" msprop:Generator_TableClassName="dsLeaveCardDetailsDataTable" msprop:Generator_TableVarName="tabledsLeaveCardDetails" msprop:Generator_TablePropName="dsLeaveCardDetails" msprop:Generator_RowDeletingName="dsLeaveCardDetailsRowDeleting" msprop:Generator_RowChangingName="dsLeaveCardDetailsRowChanging" msprop:Generator_RowEvHandlerName="dsLeaveCardDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="dsLeaveCardDetailsRowDeleted" msprop:Generator_UserTableName="dsLeaveCardDetails" msprop:Generator_RowChangedName="dsLeaveCardDetailsRowChanged" msprop:Generator_RowEvArgName="dsLeaveCardDetailsRowChangeEvent" msprop:Generator_RowClassName="dsLeaveCardDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_MID" msprop:Generator_ColumnVarNameInTable="columnEMP_MID" msprop:Generator_ColumnPropNameInRow="EMP_MID" msprop:Generator_ColumnPropNameInTable="EMP_MIDColumn" msprop:Generator_UserColumnName="EMP_MID" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_CODE" msprop:Generator_ColumnVarNameInTable="columnEMP_CODE" msprop:Generator_ColumnPropNameInRow="EMP_CODE" msprop:Generator_ColumnPropNameInTable="EMP_CODEColumn" msprop:Generator_UserColumnName="EMP_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_CODE" msprop:Generator_ColumnVarNameInTable="columnLEAVE_CODE" msprop:Generator_ColumnPropNameInRow="LEAVE_CODE" msprop:Generator_ColumnPropNameInTable="LEAVE_CODEColumn" msprop:Generator_UserColumnName="LEAVE_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="LEAVE_NAME" msprop:Generator_ColumnVarNameInTable="columnLEAVE_NAME" msprop:Generator_ColumnPropNameInRow="LEAVE_NAME" msprop:Generator_ColumnPropNameInTable="LEAVE_NAMEColumn" msprop:Generator_UserColumnName="LEAVE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="YEAR" msprop:Generator_ColumnVarNameInTable="columnYEAR" msprop:Generator_ColumnPropNameInRow="YEAR" msprop:Generator_ColumnPropNameInTable="YEARColumn" msprop:Generator_UserColumnName="YEAR" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTH" msprop:Generator_ColumnVarNameInTable="columnMONTH" msprop:Generator_ColumnPropNameInRow="MONTH" msprop:Generator_ColumnPropNameInTable="MONTHColumn" msprop:Generator_UserColumnName="MONTH" type="xs:string" minOccurs="0" />
+              <xs:element name="OPENING_BAL" msprop:Generator_ColumnVarNameInTable="columnOPENING_BAL" msprop:Generator_ColumnPropNameInRow="OPENING_BAL" msprop:Generator_ColumnPropNameInTable="OPENING_BALColumn" msprop:Generator_UserColumnName="OPENING_BAL" type="xs:string" minOccurs="0" />
+              <xs:element name="CREDIT" msprop:Generator_ColumnVarNameInTable="columnCREDIT" msprop:Generator_ColumnPropNameInRow="CREDIT" msprop:Generator_ColumnPropNameInTable="CREDITColumn" msprop:Generator_UserColumnName="CREDIT" type="xs:string" minOccurs="0" />
+              <xs:element name="DEBIT" msprop:Generator_ColumnVarNameInTable="columnDEBIT" msprop:Generator_ColumnPropNameInRow="DEBIT" msprop:Generator_ColumnPropNameInTable="DEBITColumn" msprop:Generator_UserColumnName="DEBIT" type="xs:string" minOccurs="0" />
+              <xs:element name="ENCASHED" msprop:Generator_ColumnVarNameInTable="columnENCASHED" msprop:Generator_ColumnPropNameInRow="ENCASHED" msprop:Generator_ColumnPropNameInTable="ENCASHEDColumn" msprop:Generator_UserColumnName="ENCASHED" type="xs:string" minOccurs="0" />
+              <xs:element name="AVAILED" msprop:Generator_ColumnVarNameInTable="columnAVAILED" msprop:Generator_ColumnPropNameInRow="AVAILED" msprop:Generator_ColumnPropNameInTable="AVAILEDColumn" msprop:Generator_UserColumnName="AVAILED" type="xs:string" minOccurs="0" />
+              <xs:element name="CLOSING_BAL" msprop:Generator_ColumnVarNameInTable="columnCLOSING_BAL" msprop:Generator_ColumnPropNameInRow="CLOSING_BAL" msprop:Generator_ColumnPropNameInTable="CLOSING_BALColumn" msprop:Generator_UserColumnName="CLOSING_BAL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

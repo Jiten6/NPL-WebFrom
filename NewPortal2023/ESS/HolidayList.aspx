@@ -1,0 +1,204 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ESS/ESS.Master" AutoEventWireup="true" CodeBehind="HolidayList.aspx.cs" Inherits="NewPortal2023.ESS.HolidayList" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script language="javascript" src="Common.js" type="text/javascript"></script>
+    <style type="text/css">
+        .tableTitle {
+            FONT-WEIGHT: bold;
+            FONT-SIZE: 10pt;
+            VERTICAL-ALIGN: middle;
+            COLOR: #205a94;
+            FONT-FAMILY: Tahoma;
+            HEIGHT: 20px;
+            TEXT-DECORATION: none;
+        }
+
+        .table5 {
+            BORDER-RIGHT: 0px;
+            BORDER-TOP: 0px;
+            BORDER-LEFT: 0px;
+            BORDER-BOTTOM: 0px;
+        }
+
+        .table4 {
+            BORDER-RIGHT: 0px;
+            BORDER-TOP: 0px;
+            BORDER-LEFT: 0px;
+            BORDER-BOTTOM: 0px;
+            BACKGROUND-COLOR: #cccccc;
+        }
+
+            .table4 TR {
+                PADDING-RIGHT: 1px;
+                PADDING-LEFT: 1px;
+                PADDING-BOTTOM: 1px;
+                PADDING-TOP: 1px;
+                BACKGROUND-COLOR: #ffffff;
+            }
+
+        .GridViewItem {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            border-bottom: 1px solid #d3dbdf;
+            border-left: 1px solid #d3dbdf;
+            border-right: 1px solid #d3dbdf;
+            height: 10px;
+            width: 10%;
+            font-weight: normal;
+        }
+
+        .GridViewHeader {
+            font-weight: bold;
+            FONT-SIZE: 8.3;
+            FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#BBDDFF);
+            TEXT-TRANSFORM: capitalize;
+            COLOR: #545454;
+            border-top: 1px solid #d3dbdf;
+            border-left: 1px solid #d3dbdf;
+            border-bottom: 1px solid #d3dbdf;
+            border-right: 1px solid #d3dbdf;
+            text-align: center;
+        }
+
+        .input {
+            FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+            FONT-SIZE: 7.5pt;
+            COLOR: #004B97;
+            BORDER-TOP: auto inset #CCCCCC;
+            BORDER-RIGHT: auto inset #DFDFDF;
+            BORDER-LEFT: auto inset #CCCCCC;
+            BORDER-BOTTOM: auto inset #DFDFDF;
+            border-top-color: #CCCCCC;
+            border-right-color: #DFDFDF;
+            border-bottom-color: #DFDFDF;
+            border-left-color: #CCCCCC;
+            border-top-style: inset;
+            border-right-style: inset;
+            border-bottom-style: inset;
+            border-left-style: inset;
+            border-style: inset;
+            border-color: #999999 #CCCCCC #CCCCCC #999999;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+        }
+
+        .GridViewEmpty {
+            padding: 0px;
+            margin: 0;
+            border: solid 1px #d3dbdf;
+            border-bottom: 1px solid #d3dbdf;
+            border-left: 1px solid #d3dbdf;
+            border-right: 1px solid #d3dbdf;
+            border-top: 1px solid #d3dbdf;
+            width: 100%;
+            border-spacing: 0px;
+        }
+
+        .title {
+            FONT-WEIGHT: bold;
+            FONT-SIZE: 11pt;
+            VERTICAL-ALIGN: middle;
+            TEXT-TRANSFORM: capitalize;
+            COLOR: #205a94;
+            FONT-FAMILY: Tahoma;
+            /* HEIGHT: 20px; */
+            TEXT-DECORATION: none;
+        }
+    </style>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <section id="main-content">
+        <section class="wrapper">
+            <div class="row">
+                <div class="col-sm-12">
+                    <section class="panel">
+
+                        <header class="panel-heading" style="background-color: darkcyan">
+                            <h3 style="color: white">Holiday List</h3>
+                        </header>
+
+                        <div class="panel-body">
+                            <asp:ScriptManager ID="smInv" runat="server">
+                                <Scripts>
+                                    <asp:ScriptReference Path="~/ESS/jquery.blockUI.js" />
+                                    <asp:ScriptReference Path="~/ESS/blockUI.js" />
+                                </Scripts>
+                            </asp:ScriptManager>
+
+                            <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional" EnableViewState="true">
+                                <ContentTemplate>
+                                    <div id="form1" runat="server">
+                                        <div id="divAlert" class="alert alert-block alert-success fade in" runat="server" visible="true">
+                                            <button data-dismiss="alert" class="close close-sm" type="button">
+                                                <i class="fa fa-times"></i>
+                                            </button>
+                                            <asp:Label ID="lblMessage" runat="server"></asp:Label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div id="InvDetails" visible="true" runat="server">
+                                                <asp:GridView ID="gvViewDocDetails" runat="server" AutoGenerateColumns="False" BorderWidth="0px"
+                                                CssClass="table4" DataKeyNames="FILENAME" Width="100%">
+                                                <Columns>
+                                                    <asp:TemplateField Visible="false">
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lblTSFileStorageName" runat="Server" Text='<%# Eval("FILEPATH") %>' />
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Download">
+                                                        <ItemTemplate>
+                                                            <asp:LinkButton ID="lnkBtnOpenFile" runat="server" Text='<%# Eval("FILENAME") %>'
+                                                                OnClick="lnkBtnOpenFile_Click" />
+                                                        </ItemTemplate>
+                                                        <ItemStyle CssClass="GridViewItem" BackColor="white" />
+                                                        <HeaderStyle CssClass="GridViewHeader" />
+                                                    </asp:TemplateField>
+                                                </Columns>
+                                                <EmptyDataTemplate>
+                                                    <table cellpadding="0" cellspacing="0" class="GridViewEmpty">
+                                                        <tr>
+                                                            <td class="GridViewHeader" style="width: 10%">
+                                                                <asp:Literal ID="Literal6" runat="server" Text="Download" />
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </EmptyDataTemplate>
+                                            </asp:GridView>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ContentTemplate>
+                                <Triggers>
+                                    <%--<asp:PostBackTrigger ControlID="chk1" />
+                                    <asp:PostBackTrigger ControlID="chk2" />
+                                    <asp:PostBackTrigger ControlID="chk3" />
+                                    <asp:PostBackTrigger ControlID="chk4" />
+                                    <asp:PostBackTrigger ControlID="chk5" />
+                                    <asp:PostBackTrigger ControlID="chk6" />
+                                    <asp:PostBackTrigger ControlID="chk7" />
+                                    <asp:PostBackTrigger ControlID="chk8" />
+                                    <asp:PostBackTrigger ControlID="radioPrimary1" />
+                                    <asp:PostBackTrigger ControlID="radioPrimary2" />
+                                    <asp:PostBackTrigger ControlID="btnSave" />
+                                    <asp:PostBackTrigger ControlID="btnClose" />
+                                    <asp:PostBackTrigger ControlID="drpType" />
+                                    <asp:PostBackTrigger ControlID="btnCalTtl" />--%>
+                                </Triggers>
+                            </asp:UpdatePanel>
+
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+</asp:Content>
