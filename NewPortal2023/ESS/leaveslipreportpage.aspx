@@ -63,7 +63,7 @@ TagPrefix="rsweb" %>
                     <section class="panel">
 
                         <header class="panel-heading" style="background-color: darkcyan">
-                            <h3 style="color: white">Leave Slip Report</h3>
+                            <h3 style="color: white">Leave SlipS Report</h3>
                         </header>
 
                         <div class="panel-body">
